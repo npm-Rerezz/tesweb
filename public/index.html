@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Server</title>
+    <link rel="stylesheet" href="/rerezz">
+</head>
+<body>
+
+
+    <div class="container">
+      <img src='https://files.catbox.moe/2p73rh.jpg' alt='kontol'>
+        <h1>Create Server</h1>
+        <form id="server-form">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter username" required />
+            </div>
+
+            <div class="form-group">
+                <label for="key">Key</label>
+                <input type="text" id="key" placeholder="Enter your key" required />
+            </div>
+
+            <div class="form-group">
+                <label for="ram">RAM ( 1 - 10 GB)</label>
+                <select id="ram" required>
+                    <option value="panel1gb">1 GB</option>
+                    <option value="panel2gb">2 GB</option>
+                    <option value="panel3gb">3 GB</option>
+                    <option value="panel4gb">4 GB</option>
+                    <option value="panel5gb">5 GB</option>
+                    <option value="panel6gb">6 GB</option>
+                    <option value="panel7gb">7 GB</option>
+                    <option value="panel8gb">8 GB</option>
+                    <option value="panel9gb">9 GB</option>
+                    <option value="panel10gb">10 GB</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="ram">RAM ( 11 - 20 & Unli GB)</label>
+                <select id="ram" required>
+                    <option value="panel11gb">11 GB</option>
+                    <option value="panel12gb">12 GB</option>
+                    <option value="panel13gb">13 GB</option>
+                    <option value="panel14gb">14 GB</option>
+                    <option value="panel15gb">15 GB</option>
+                    <option value="panel16gb">16 GB</option>
+                    <option value="panel17gb">17 GB</option>
+                    <option value="panel18gb">18 GB</option>
+                    <option value="panel19gb">19 GB</option>
+                    <option value="panel20gb">20 GB</option>
+                    <option value="panelunli">Unlimited</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Create Server</button>
+            </div>
+        </form>
+
+        <div id="response-message" style="margin-top: 20px;"></div>
+    </div>
+
+    <div id="serverModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Server Details</h3>
+            <p><strong>Username:</strong> <span id="modal-username"></span></p>
+            <p><strong>Password:</strong> <span id="modal-password"></span></p>
+            <p><strong>Domain:</strong> <span id="modal-domain"></span></p>
+            <p><strong>Server ID:</strong> <span id="modal-id"></span></p>
+            <p><strong>RAM:</strong> <span id="modal-ram"></span></p>
+            <p><strong>Disk:</strong> <span id="modal-disk"></span></p>
+            <p><strong>CPU:</strong> <span id="modal-cpu"></span></p>
+            <p><strong>Email:</strong> <span id="modal-email"></span></p><br><br>
+            <h4>Terimakasih Telah Mempercayai Layanan Kami</h4>
+            <a herf="#">Rerezz Official</a>
+        </div>
+      
+    </div>
+
+    <script src="/rerez"></script>
+    
+
+</body>
+                  </html>
+                  
